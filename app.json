@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "cuanto-pago-app",
+    "name": "Cuanto Pago",
     "slug": "cuanto-pago-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.santi.cuanto_pago_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "05bdb729-4288-43a7-9e6f-cff9c76687cf"
+      }
     }
   }
 }
